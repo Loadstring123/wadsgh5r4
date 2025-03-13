@@ -42,8 +42,8 @@ do
         Description = "do not click!!!!11!!11!!1",
         Callback = function()
             Window:Dialog({
-                Title = "Title",
-                Content = "This is a dialog",
+                Title = "whyd you click this",
+                Content = "ex ex ex ex ex ex",
                 Buttons = {
                     {
                         Title = "Confirm",
@@ -207,7 +207,7 @@ do
 
     local Input = Tabs.Main:AddInput("Input", {
         Title = "Type",
-        Default = "Default",
+        Default = " ",
         Placeholder = "Placeholder",
         Numeric = false, -- Only allows numbers
         Finished = false, -- Only calls callback when you press enter
