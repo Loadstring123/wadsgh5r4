@@ -24,7 +24,7 @@ do
     Fluent:Notify({
         Title = "Notification",
         Content = "notification",
-        SubContent = "SubContent", -- Optional
+        SubContent = "made by ex 😡😡😡", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
 
@@ -250,8 +250,8 @@ SaveManager:BuildConfigSection(Tabs.Settings)
 Window:SelectTab(1)
 
 Fluent:Notify({
-    Title = "Fluent",
-    Content = "The script has been loaded.",
+    Title = "Weave",
+    Content = "loaded",
     Duration = 8
 })
 
